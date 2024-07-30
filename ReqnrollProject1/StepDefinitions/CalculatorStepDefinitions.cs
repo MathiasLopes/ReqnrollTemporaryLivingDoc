@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
 
 namespace ReqnrollProject1.StepDefinitions
 {
@@ -30,7 +31,7 @@ namespace ReqnrollProject1.StepDefinitions
         [Then("the result should be {int}")]
         public void ThenTheResultShouldBe(int expectedResult)
         {
-            Assert.AreEqual(expectedResult, _result);
+            ClassicAssert.AreEqual(expectedResult, _result);
         }
     }
 }
