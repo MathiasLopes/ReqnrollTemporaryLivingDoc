@@ -1,10 +1,4 @@
-
-
-
-
 # Generate LivingDoc HTML file from Reqnroll Unit Tests
-
-
 
 Install NuGet databinding.LivingDoc.ExecutionDataCollector in your Reqnroll test project.
 
@@ -45,7 +39,3 @@ livingdoc feature-folder . --output-type HTML -t bin/Debug/net8.0/TestExecution.
 ```
 
 The LivingDoc HTML file should be generated in the same folder where you are located.
-
-
-
-
